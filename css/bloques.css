@@ -1,0 +1,32 @@
+body, html {
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+
+.block1 {
+width: 82em;
+height: 42em;
+background: skyblue;
+}
+
+.block2 {
+	width: 82em;
+	height: 10em;
+	background:slategray;
+}
+
+.block3 {
+	width: 41em;
+	height: 17em;
+	background: green;
+}
+
+.block4 {
+	width: 41em;
+	position:absolute;
+	left: 41em;
+	background: yellow;
+	height: 17em;
+    margin-top: -17em
+}
