@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+
+	font-family: 'Bangers', cursive;
+}
+
+body{
+	background-color: skyblue;
+	padding: 0;
+	margin:0;
+}
+
+.divg {
+z-index: 0;
+}
+
+.div1,.div2{
+	float: left;
+	width: 49%;
+}
+
+.div2 img{
+	width: 50%;
+	z-index: 10;
+	position: relative;
+	top: 50px;
+	right:300px;
+}
+
+nav ul li{
+	float: left;
+	width: 25%;
+	list-style: none;
+}
+
+ul{
+	padding:0;
+	margin:0;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	background-color: silver;
+	padding: 15px;
+    display:block;
+    width:100%;
+    color:white;
+    text-align: center;
+}
+
+.div3 button{
+position: static;
+z-index: 20;
+}
+
+.div2 p{
+	position: relative;
+	z-index: 20;
+}
+
+.div1 {
+	z-index: 20;
+	position: relative;
+}
+
+@media (max-width: 600px) {
+	body{
+		background-color: #ffa;
+	}
+}
+ 
+ @media (min-width: 900px) {
+	body{
+		background-color: #B6B1F4;
+	}
+}
